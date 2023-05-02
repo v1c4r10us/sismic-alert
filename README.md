@@ -1,1 +1,5 @@
-# This is a project abort sismic alerts
+# Posibles herramientas
++ Selenium
++ Scrappy
++ Playwright
++ Puppeteer
