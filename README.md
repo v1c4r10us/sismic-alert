@@ -4,5 +4,5 @@
 + Playwright
 + Puppeteer
 
-Colaborator1: Edgard
-Colaborator2: Criss zamudio
+### Colaborator1: Edgard
+### Colaborator2: Criss zamudio
