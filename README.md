@@ -3,3 +3,5 @@
 + Scrappy
 + Playwright
 + Puppeteer
+
+Cambio de Edgard
