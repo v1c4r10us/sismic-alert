@@ -3,5 +3,6 @@
 + Scrappy
 + Playwright
 + Puppeteer
-git 
-criss zamudio 
+
+Colaborator1: Edgard
+Colaborator2: Criss zamudio
