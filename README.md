@@ -7,6 +7,7 @@ El proyecto consiste en implementar una base de datos no relacional (NoSQL), que
 # Esquema de almacenamiento en MongoDB Atlas
 ```json
 {
+    'id'        :   'Id asignado por MongoDB',
     'time'      :   'fecha y hora del sismo',
     'latitude'  :   'latitud',
     'longitude' :   'longitud',
