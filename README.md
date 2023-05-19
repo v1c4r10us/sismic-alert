@@ -4,6 +4,20 @@ El proyecto consiste en implementar una base de datos no relacional (NoSQL), que
 # Arquitectura
 <a href="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qlE-u9qQl5L2Kdb4gLaQNaGXFj35sLhpBLULCoqA3IlCamq8PJypnfLq_i9UMOUZC1Yo6ZHAQQLiVHmZBMNO3crjutZw=s1600?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qlE-u9qQl5L2Kdb4gLaQNaGXFj35sLhpBLULCoqA3IlCamq8PJypnfLq_i9UMOUZC1Yo6ZHAQQLiVHmZBMNO3crjutZw=s1600" /> </a>
 
+# Esquema de almacenamiento en MongoDB Atlas
+```json
+{
+    'id'        :   'Id asignado por MongoDB',
+    'time'      :   'fecha y hora del sismo',
+    'latitude'  :   'latitud',
+    'longitude' :   'longitud',
+    'depth'     :   'profundidad',
+    'mag'       :   'magnitud',
+    'place'     :   'epicentro',
+    'country'   :   'país'
+}
+```
+
 # Microservicio Railway
 A través de este microservicio desplegado en Railway como container docker, se ejecuta el fichero **app.py** en intervalos de tiempo prefijados por el fichero con permisos de ejecución **cronworker.sh** del sistema base ubuntu sobre el cual se ejecuta el container, de esta forma se mantiene el proceso iterativo.
 
@@ -36,5 +50,4 @@ Mediante GCP se utiliza **Cloud Functions** para ejecutar directamente el códig
 
 **`Desventajas`**
 + Costo
-+ Dependencia de la conectividad a Internet
 
