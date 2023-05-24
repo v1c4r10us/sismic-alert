@@ -97,7 +97,9 @@ De ahí, surge un problema, que el primer cluster contiene sismos que son imperc
 Es por eso que se decidió trabajar con 4 clusters y dejar por fuera el más débil, aunque sobrepase la cantidad de clusters óptimo, para nuestro servicio, consideramos que es mejor usar un 4to.
 Quedando así, los clusters de 1 como el mas fuerte, 2 como el mas débil y 3 como el de nivel medio, dejando afuera el cluster numero 0.
 
+# Demo
 
+https://www.youtube.com/watch?v=6247OfRFvwQ
 
 DBSCAN
 
@@ -105,6 +107,17 @@ DBSCAN
 
 Este modelo arrojó una cantidad óptima de 38 clusters, por lo que se decidió descartarlo debido a su gran cantidad y también lo poco unforme que estaban distribuidos los datos en los clusters.
 
+
+
+ ## <h1 align=center>**`Stack Tecnológico:`**</h1>
+| Programa o Libreria | Utilidad |
+|----------------|----------|
+| **Google Cloud** |  Se utilizó para la ejecución y automatización de nuestro script de python. |
+| **MongoDB ATLAS** | Base de datos no relacional que almacena y estructura los sismos.  |
+| **Visual Studio Code** | Se utilizó como herramienta para confeccionar y generar el código necesario. |
+| **Power BI** | Exploración y Presentacion de los datos procesados  |
+| **Google Colab** | Utilizado para realizar el ETL de los Datos. |
+| **Librerias en Python** | Streamlit, pymongo, Telegram, request, pandas, sklearn, emoji, numpy, json,  |
 
 # Colaboradores:
 
