@@ -8,7 +8,7 @@
   </p>
 </div>
 <p align="center">
-    <img src="https://play-lh.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q" height="80">
+    <img src="https://play-lh.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q" height="120">
   </p>
   <p align="center">
     <img src="https://snipboard.io/lardeS.jpg" height="80" width="80">
