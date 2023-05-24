@@ -61,6 +61,8 @@ Para los modelos, se evaluaron 2 en este proyecto: K-Means y DBSCAN
 
 K-Means
 
+<a href="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qdqnDmUQ49JfYEoQCUl_rBkJvzxPlbyFDXKN0NGv3eIcuRqY_YF8v3AqaePR__12adhVvJZJsU0K_gJw2M9beiMR6oSA=s1600?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qdqnDmUQ49JfYEoQCUl_rBkJvzxPlbyFDXKN0NGv3eIcuRqY_YF8v3AqaePR__12adhVvJZJsU0K_gJw2M9beiMR6oSA=s1600" /> </a>
+
 Se utilizó el "método del codo" para obtener la cantidad óptima de clusters para nuestros servicios, que se calcula a través del error de cada cluster dando como resultado el numero 3.
 De ahí, surge un problema, que el primer cluster contiene sismos que son imperceptibles para las personas, además de su gran cantidad, por lo que no serían un preocupación para nuestros usuarios y, una alerta constante de estos, podría llegar a provocar que lo usuarios se desmotiven en el uso de nuestro servicio y cuando uno de mayor fuerza aparezca, no seguir nuestras recomendaciones.
 Es por eso que se decidió trabajar con 4 clusters y dejar por fuera el más débil, aunque sobrepase la cantidad de clusters óptimo, para nuestro servicio, consideramos que es mejor usar un 4to.
@@ -69,5 +71,7 @@ Quedando así, los clusters de 1 como el mas fuerte, 2 como el mas débil y 3 co
 
 
 DBSCAN
+
+<a href="https://lh3.googleusercontent.com/drive-viewer/AFGJ81r1fkZThued3sQBA6Jch6vUXqJfIG__DFstLe4SME6qxgJnCBR8zRE9xzPbEfnAAb60fJzg9-nOG95AzzOa-QJXX2Yu=s2560?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81r1fkZThued3sQBA6Jch6vUXqJfIG__DFstLe4SME6qxgJnCBR8zRE9xzPbEfnAAb60fJzg9-nOG95AzzOa-QJXX2Yu=s2560" /> </a>
 
 Este modelo arrojó una cantidad óptima de 38 clusters, por lo que se decidió descartarlo debido a su gran cantidad y también lo poco unforme que estaban distribuidos los datos en los clusters.
