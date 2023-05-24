@@ -1,5 +1,22 @@
-# Intro
+<h1 align=center> Proyecto Final</h1>
+
+ ## <h1 align=center>**`Sistema de Alerta Sísmica:`**</h1>
+
+
+ ## <h1 align=center>**`Contexto y Objetivos:`**</h1>
+ **Contexto**	
 El proyecto consiste en implementar una base de datos no relacional (NoSQL), que almacene la información de los movimientos sísmicos que estan ocurriendo en tiempo real y que se encuentran en constante ingesta a los servidores de los organismos geofísicos de USA, Japón y Chile. De esta forma mediante un proceso de extracción de información a través de la interacción directa con las APIs, vamos haciendo consultas iteradas en ciclos de **60 segundos** y posteriormente realizando la limpieza la información para su posterior carga en una plataforma **DBaaS (DataBase as a Service)**. De esta forma se cierra el pipeline de data-engineering.
+</h1>
+
+**Objetivos**
++ Proporcionar alertas en tiempo real: El objetivo principal del bot de alertas de Telegram es enviar notificaciones inmediatas a los usuarios cuando ocurre un sismo, brindando información actualizada sobre la magnitud y ubicación del evento. 
++ Maximizar la efectividad de las alertas: El bot se enfoca en entregar alertas precisas y relevantes, utilizando técnicas de Machine Learning y análisis de datos para determinar el nivel de riesgo y generar recomendaciones adaptadas a cada situación sísmica.
++ Facilitar la toma de decisiones y acciones preventivas: El objetivo es proporcionar información clara y concisa a los usuarios, para que puedan evaluar adecuadamente la situación y tomar decisiones informadas sobre acciones preventivas, evacuación u otras medidas de seguridad.
+</h1>
+
+**Alcance**
++ El alcance de este proyecto abarca la implementación de un bot de alertas de Telegram que se conecta a APIs gubernamentales para obtener datos en tiempo real sobre sismos, realiza un proceso ETL para transformar la información obtenida, utiliza técnicas de Machine Learning para generar recomendaciones asociadas a la magnitud y ubicación de los sismos, permite personalizar las preferencias de alerta de los usuarios, y envía notificaciones instantáneas a través de mensajes de Telegram, con el objetivo de proporcionar alertas precisas y oportunas, facilitando la toma de decisiones y acciones preventivas por parte de los usuarios.
+
 
 # Arquitectura
 <a href="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qlE-u9qQl5L2Kdb4gLaQNaGXFj35sLhpBLULCoqA3IlCamq8PJypnfLq_i9UMOUZC1Yo6ZHAQQLiVHmZBMNO3crjutZw=s1600?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qlE-u9qQl5L2Kdb4gLaQNaGXFj35sLhpBLULCoqA3IlCamq8PJypnfLq_i9UMOUZC1Yo6ZHAQQLiVHmZBMNO3crjutZw=s1600" /> </a>
