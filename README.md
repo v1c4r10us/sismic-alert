@@ -1,6 +1,6 @@
 <h1 align=center> Proyecto Final</h1>
 
- ## <h1 align=center>**`Sistema de Alerta Sísmica:`**</h1>
+ ## <h1 align=center>**`Sistema de Alerta Sísmica`**</h1>
  
  <div >
 <p align="center">
@@ -15,7 +15,6 @@
   </p>
 </div>
 
- ## <h1 align=center>**`Contexto y Objetivos:`**</h1>
  **Contexto**	
 + El proyecto consiste en implementar una base de datos no relacional (NoSQL), que almacene la información de los movimientos sísmicos que estan ocurriendo en tiempo real y que se encuentran en constante ingesta a los servidores de los organismos geofísicos de USA, Japón y Chile. De esta forma mediante un proceso de extracción de información a través de la interacción directa con las APIs, vamos haciendo consultas iteradas en ciclos de **60 segundos** y posteriormente realizando la limpieza la información para su posterior carga en una plataforma **DBaaS (DataBase as a Service)**. De esta forma se cierra el pipeline de data-engineering.
 </h1>
@@ -47,7 +46,7 @@
 }
 ```
 
-# Microservicio Railway
+# Microservicio Docker
 A través de este microservicio desplegado en Railway como container docker, se ejecuta el fichero **app.py** en intervalos de tiempo prefijados por el fichero con permisos de ejecución **cronworker.sh** del sistema base ubuntu sobre el cual se ejecuta el container, de esta forma se mantiene el proceso iterativo.
 
 **`Ventajas`**
