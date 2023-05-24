@@ -4,14 +4,14 @@
  
  <div >
 <p align="center">
-    <img src="https://ayudaleyprotecciondatos.es/wp-content/uploads/2020/10/cloud-computing-google.jpg" height="100">
+    <img src="https://ayudaleyprotecciondatos.es/wp-content/uploads/2020/10/cloud-computing-google.jpg" height="150">
   </p>
 </div>
 <p align="center">
-    <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/98/6a/c3/986ac383-e560-d26e-5c00-eaf1336e9c18/AppIconLLC-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x600wa.png" height="80">
+    <img src="https://play-lh.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q" height="80">
   </p>
   <p align="center">
-    <img src="https://snipboard.io/lardeS.jpg" height="60" width="60">
+    <img src="https://snipboard.io/lardeS.jpg" height="80" width="80">
   </p>
 </div>
 
