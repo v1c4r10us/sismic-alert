@@ -75,3 +75,16 @@ DBSCAN
 <a href="https://lh3.googleusercontent.com/drive-viewer/AFGJ81r1fkZThued3sQBA6Jch6vUXqJfIG__DFstLe4SME6qxgJnCBR8zRE9xzPbEfnAAb60fJzg9-nOG95AzzOa-QJXX2Yu=s2560?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81r1fkZThued3sQBA6Jch6vUXqJfIG__DFstLe4SME6qxgJnCBR8zRE9xzPbEfnAAb60fJzg9-nOG95AzzOa-QJXX2Yu=s2560" /> </a>
 
 Este modelo arrojó una cantidad óptima de 38 clusters, por lo que se decidió descartarlo debido a su gran cantidad y también lo poco unforme que estaban distribuidos los datos en los clusters.
+
+
+# Colaboradores:
+
++ Juan Manuel Luna
+
++ Edgard Alfredo Huanca
+
++ David Alejandro Ortiz
+
++ Liznel Grimaldo
+
++ Cristian Zamudio
