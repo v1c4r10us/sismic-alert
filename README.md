@@ -97,10 +97,6 @@ De ahí, surge un problema, que el primer cluster contiene sismos que son imperc
 Es por eso que se decidió trabajar con 4 clusters y dejar por fuera el más débil, aunque sobrepase la cantidad de clusters óptimo, para nuestro servicio, consideramos que es mejor usar un 4to.
 Quedando así, los clusters de 1 como el mas fuerte, 2 como el mas débil y 3 como el de nivel medio, dejando afuera el cluster numero 0.
 
-# Demo
-
-https://www.youtube.com/watch?v=6247OfRFvwQ
-
 DBSCAN
 
 <a href="https://lh3.googleusercontent.com/drive-viewer/AFGJ81r1fkZThued3sQBA6Jch6vUXqJfIG__DFstLe4SME6qxgJnCBR8zRE9xzPbEfnAAb60fJzg9-nOG95AzzOa-QJXX2Yu=s2560?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81r1fkZThued3sQBA6Jch6vUXqJfIG__DFstLe4SME6qxgJnCBR8zRE9xzPbEfnAAb60fJzg9-nOG95AzzOa-QJXX2Yu=s2560" /> </a>
@@ -118,6 +114,10 @@ Este modelo arrojó una cantidad óptima de 38 clusters, por lo que se decidió 
 | **Power BI** | Exploración y Presentacion de los datos procesados  |
 | **Google Colab** | Utilizado para realizar el ETL de los Datos. |
 | **Librerias en Python** | Streamlit, pymongo, Telegram, request, pandas, sklearn, emoji, numpy, json,  |
+
+# Demo
+
+https://www.youtube.com/watch?v=6247OfRFvwQ
 
 # Colaboradores:
 
