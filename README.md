@@ -1,11 +1,23 @@
 <h1 align=center> Proyecto Final</h1>
 
  ## <h1 align=center>**`Sistema de Alerta Sísmica:`**</h1>
-
+ 
+ <div >
+<p align="center">
+    <img src="https://ayudaleyprotecciondatos.es/wp-content/uploads/2020/10/cloud-computing-google.jpg" height="60">
+  </p>
+</div>
+<p align="center">
+    <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/98/6a/c3/986ac383-e560-d26e-5c00-eaf1336e9c18/AppIconLLC-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x600wa.png" height="60">
+  </p>
+  <p align="center">
+    <img src="https://snipboard.io/lardeS.jpg" height="60" width="60">
+  </p>
+</div>
 
  ## <h1 align=center>**`Contexto y Objetivos:`**</h1>
  **Contexto**	
-El proyecto consiste en implementar una base de datos no relacional (NoSQL), que almacene la información de los movimientos sísmicos que estan ocurriendo en tiempo real y que se encuentran en constante ingesta a los servidores de los organismos geofísicos de USA, Japón y Chile. De esta forma mediante un proceso de extracción de información a través de la interacción directa con las APIs, vamos haciendo consultas iteradas en ciclos de **60 segundos** y posteriormente realizando la limpieza la información para su posterior carga en una plataforma **DBaaS (DataBase as a Service)**. De esta forma se cierra el pipeline de data-engineering.
++ El proyecto consiste en implementar una base de datos no relacional (NoSQL), que almacene la información de los movimientos sísmicos que estan ocurriendo en tiempo real y que se encuentran en constante ingesta a los servidores de los organismos geofísicos de USA, Japón y Chile. De esta forma mediante un proceso de extracción de información a través de la interacción directa con las APIs, vamos haciendo consultas iteradas en ciclos de **60 segundos** y posteriormente realizando la limpieza la información para su posterior carga en una plataforma **DBaaS (DataBase as a Service)**. De esta forma se cierra el pipeline de data-engineering.
 </h1>
 
 **Objetivos**
